@@ -1,0 +1,164 @@
+
+<html>
+<head><title>Hindi Editor</title>
+	<link rel="stylesheet" href="style/jquery-ui.css">
+
+	<link rel="stylesheet" href="style/styles.css">
+	<script src="lib/jquery.js"></script>
+	<script src="lib/underscore.js"></script>
+	<script src="lib/backbone.js"></script>
+	<script src="lib/backbone.marionette.js"></script>
+
+<!--
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js" />
+	<script src="https://code.jquery.com/ui/1.11.0/jquery-ui.min.js" />
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js" />
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js" />
+	<script src="http://marionettejs.com/downloads/backbone.marionette.min.js" />
+-->
+
+
+<script src="hindi.js" charset="UTF-8"></script>
+
+<script type="text/template" id="wordDetailsViewTemplate"> 
+	<% if(word){ %>
+		<div class="hindiWord"><span style='font-size: 14pt;'><%= word.hindiWord %></span></div>
+		<% } %>
+	</script>
+
+	<script type="text/template" id="categoryViewTemplate"> 
+		<div class="categoryName"><%= categoryName %></div>
+	</script>
+
+	<script type="text/template" id="meaningViewTemplate">
+		<%= text %>
+	</script>
+
+	<script type="text/template" id="sentenceViewTemplate"> 
+		<div class="sspeaker"><span title="Speak this sentence">&nbsp;</span></div>
+	</script>
+
+	<script type="text/template" id="wordViewTemplate"> 
+		<div class="wordView">
+			<% if ( selected ) { %>
+				<div class="Block selected">
+					<% } else { %>
+						<div class="Block">
+							<% } %> 
+							<div class="HindiWord"><%= hindiWord %></div>
+							<div class="wspeaker"><span title="Speak this word">&nbsp;</span></div>
+							<div class="remove"><span title="Delete this word">&nbsp;</span></div> 
+						</div>
+					</div>
+				</script>
+
+				<script type="text/template" id="legendItemViewTemplate"> 
+					<% if(letter.length > 0 && readables.length > 0 ) {%>
+						
+						<div class="letter"><%= letter %></div><div class="readables">
+						<% if(readables.length > 1 || readables[0] != '') { %>
+							<%= readables.join( ", ") %>
+							<% } %>	
+						</div>
+
+						<% } %>	
+					</script>
+
+					<script type="text/template" id="WordTemplate"> 
+						<div class="Block">
+							<div class="HindiWord"><%= hindiWord %></div>
+							<div class="remove"><span>&nbsp;</span></div>
+						</div>
+					</script>
+
+					<script type="text/template" id="sentenceTooltipTemplate">
+						<% _.each(paragraphs, function(paragraph) { %> 
+							<div>
+								<% _.each(paragraph.sentences.models, function(sentence) { %> 
+									<div class='oneSentence'><div><%= sentence.allWords %></div><div class='readable'><%= sentence.allReadableWords %></div><div class='wordMeaning'><%= sentence.allWordsMeaning %></div><div class='sentenceMeaning'><%= sentence.meaning %></div></div>
+									<% }); %>
+							</div>
+							<br clear="all" />
+							<% }); %>
+					</script>
+
+					<script type="text/template" id="wordTooltipTemplate"> 
+						<div class="Readable"><%= readable %></div>
+						<div class="Meaning"><%= details.selectedMeaning.text %></div>
+					</script>
+
+				</head>
+
+				<body>
+
+					<div id="MainContainer">
+
+						<div>
+							<div id="lookupRegion">
+								<div id="keyboardContainer" ></div>
+								<input type="text" id="Editor" />
+							</div>
+							<div id="englishWord"></div>
+						</div>
+
+						<br clear="all"/>
+						<div id="legendRegion"></div>
+
+
+						<br clear="all"/>
+						<div id="editorRegion"></div>
+
+						<br clear="all"/>
+						<div id="wordDetailsRegion">
+							<br clear="all"/>
+						</div>
+
+						<br clear="all"/>
+<!-- 
+						<div id="formatRadio">
+							<input type="radio" id="radio1" name="radio" checked="checked"><label for="radio1">Rich Text</label>
+							<input type="radio" id="radio2" name="radio"><label for="radio2">Plain Text</label>
+						</div> -->
+
+						<div id="viewsTab">
+							<ul>
+								<li><a href="#htmlView">HTML View</a></li>
+								<li><a href="#textView">Text View</a></li>
+							</ul>
+					
+
+						 <div id="htmlView">
+
+						<iframe id="sentencesFrame" srcdoc="<html><head><link rel='stylesheet' href='style/styles.css'></head><body><div></div></body></html>" >
+
+						</iframe>
+						 </div>
+
+
+						 <div id="textView">
+						
+							<textarea name="sentencesInText" readonly="true" id="sentencesTextArea"></textarea>
+
+						 </div>
+
+	</div>
+
+					</div>	
+
+					<div id="TooltipContainer" style="display: none;"></div>
+
+				</body>
+
+				<script src="lib/jquery-ui.js"></script>
+
+				<script>
+					$(function() {
+						$( document ).tooltip();
+						$('#Editor').focus();
+						$( "#viewsTab" ).tabs({active: 0});
+					});
+				</script>
+
+				</html>

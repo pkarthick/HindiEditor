@@ -1,0 +1,3 @@
+--target ES5 --out hindi.js models/ModelBase.ts models/Legend.ts models/HindiLetter.ts models/Editor.ts models/HindiWord.ts models/Keyboard.ts models/Match.ts models/HindiProcessor.ts models/Editor.ts models/WordDetails.ts app/app.ts views/LegendView.ts views/LegendSectionView.ts views/LegendItemView.ts views/EditorView.ts views/WordDetailsView.ts
+
+

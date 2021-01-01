@@ -1,0 +1,755 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"el"
+			],
+			[
+				"Key",
+				"KeyboardView"
+			],
+			[
+				"jquer",
+				"jquery"
+			],
+			[
+				"b",
+				"backbone"
+			],
+			[
+				"lett",
+				"letterConsanant"
+			],
+			[
+				"rea",
+				"readableLetters"
+			],
+			[
+				"re",
+				"readable"
+			],
+			[
+				"cons",
+				"consanants"
+			],
+			[
+				"con",
+				"consanants"
+			],
+			[
+				"H",
+				"HindiLetter"
+			],
+			[
+				"hr",
+				"href	Attr"
+			],
+			[
+				"interf",
+				"interface-default	interface_definition"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/karthick/Documents/Experiments/Hindi/app/app.ts",
+			"settings":
+			{
+				"buffer_size": 404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Keyboard.ts",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "HindiLib.ts",
+			"settings":
+			{
+				"buffer_size": 19343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "HindiLetter.ts",
+			"settings":
+			{
+				"buffer_size": 406,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "HindiWord.ts",
+			"settings":
+			{
+				"buffer_size": 145,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/karthick/Documents/Experiments/Hindi/hindi.html",
+			"settings":
+			{
+				"buffer_size": 379,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/karthick/Documents/Experiments/Hindi/BuildHindi.glue",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indd",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inded",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"dis",
+				"TypeScript: Display JavaScript"
+			],
+			[
+				"Dis",
+				"TypeScript: Display JavaScript"
+			],
+			[
+				"int",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"di",
+				"TypeScript: Display JavaScript"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"disp",
+				"TypeScript: Display JavaScript"
+			],
+			[
+				"d",
+				"TypeScript: Display JavaScript"
+			],
+			[
+				"ty",
+				"TypeScript: Display JavaScript"
+			],
+			[
+				"t",
+				"TypeScript: Display JavaScript"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"type",
+				"TypeScript: Display JavaScript"
+			],
+			[
+				"typ",
+				"TypeScript: Compile File"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/karthick/Documents/Experiments/Hindi/hindi.html",
+		"/Users/karthick/Documents/Experiments/Hindi/BuildHindi.glue",
+		"/Users/karthick/Documents/Experiments/Hindi/models/HindiLib.ts",
+		"/Users/karthick/Documents/Experiments/Hindi/app.ts",
+		"/Users/karthick/Documents/Experiments/Hindi/models/Keyboard.ts",
+		"/Users/karthick/Documents/Experiments/Hindi/views/KeyboardView.ts",
+		"/Users/karthick/Documents/Experiments/Hindi/models/HindiWord.ts",
+		"/Users/karthick/Documents/Experiments/Hindi/models/HindiLetter.ts",
+		"/Users/karthick/Library/Application Support/Sublime Text 3/Packages/User/Glue.sublime-settings",
+		"/Users/karthick/Documents/Experiments/Hindi/HindiLib.ts",
+		"/Users/karthick/Documents/Experiments/Hindi/config.js",
+		"/Users/karthick/Documents/Experiments/Hindi/config.ts",
+		"/Users/karthick/Documents/Experiments/Hindi/HindiWord.ts",
+		"/Users/karthick/Documents/Experiments/Hindi/HindiLetter.ts",
+		"/Users/karthick/Documents/Experiments/Hindi/HindiLetter.js",
+		"/Users/karthick/Documents/Experiments/Hindi/BuildHindi",
+		"/Users/karthick/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/karthick/Documents/Experiments/Hindi/scripts/config.ts",
+		"/Users/karthick/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/karthick/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/karthick/Documents/Experiments/Hindi/HindiWord",
+		"/Users/karthick/Documents/Experiments/HindiPandit/HindiPandit/MainWindow.xaml.cs",
+		"/Users/karthick/Documents/Experiments/HindiPandit/HindiPandit/HindiLetter.cs",
+		"/Users/karthick/Documents/Experiments/hindi.js",
+		"/Users/karthick/Documents/Experiments/hindi.ts",
+		"/Users/karthick/Documents/Experiments/hindi.html",
+		"/Users/karthick/Documents/Experiments/test.html",
+		"/Users/karthick/Documents/Experiments/jquery.d.ts",
+		"/Users/karthick/Documents/Experiments/jquery.js",
+		"/Users/karthick/Downloads/AGGPK1246E_2014_2014-07-30-14-34-38-103.xml",
+		"/Users/karthick/Documents/Experiments/test.ts",
+		"/Users/karthick/Documents/Experiments/HindiGuide.html",
+		"/Users/karthick/Documents/Projects/CloneHunter/CloneHunterLib/CompareHelper.fs",
+		"/Users/karthick/Documents/Experiments/test.js",
+		"/Users/karthick/Downloads/freewpfsilverlightmetrothemes/Theme.WPF/MainWindow.xaml",
+		"/Users/karthick/Downloads/freewpfsilverlightmetrothemes/Theme.WPF/App.xaml",
+		"/Users/karthick/Library/Application Support/Sublime Text 3/Packages/Better TypeScript/TypeScript.sublime-settings",
+		"/Users/karthick/Library/Application Support/Sublime Text 3/Packages/User/Typescript.sublime-build",
+		"/Users/karthick/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/karthick/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/karthick/Documents/Experiements/test.html",
+		"/Users/karthick/Documents/Experiements/test.js",
+		"/Users/karthick/Downloads/contentEditable.html",
+		"/Volumes/C/Program Files/nodejs/node_modules/npm/package.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"scripts",
+			"lib",
+			"scripts",
+			"app",
+			"scripts",
+			"Lib",
+			"backbone",
+			"lib",
+			"Lib",
+			"jquery",
+			"hindi",
+			"jquery",
+			"is",
+			"this",
+			"HindiEditor",
+			"\", \"",
+			"\\{(.*)\\}",
+			"Sentence\\.HindiLetterReadableEnglishMap\\.Add\\((\\\".*\\\")\\);",
+			"\\s*Sentence\\.HindiLetterReadableEnglishMap\\.Add\\(",
+			"readble:",
+			"\\{\\\"",
+			"]},",
+			"hindiMap\\.Add\\((.*)\\s*\\);",
+			",\\[",
+			"(\\{.*\\}),\\}",
+			"\\s+hindiMap.Add\\(\\\"(.*)\\\"\\s*\\},\\}\\]\\s*\\);",
+			"readable=",
+			"\\s*new\\s+List<HindiLetter>\\s*\\{(.*)",
+			"\\s*new\\s*HindiLetter\\{\\s*Letter=(\\\".*\\\"),\\s*ReadableEnglish=(\\\".*\\\")\\s*\\},\\s*",
+			"\\{\\s+new\\s+HindiLetter\\{\\s+Letter=\\\".*\\\",\\s+ReadableEnglish=\\\".*\\\"\\s+\\},\\s+\\}",
+			"[new\\s+HindiLetter\\{\\s+Letter=\\\".*\\\",\\s+ReadableEnglish=\\\".*\\\"\\s+\\},]+",
+			"new HindiLetter{ Letter=\"क\", ReadableEnglish=\"ka\" },",
+			"\\s+hindiMap.Add\\((\\\".*\\\")\\,\\s+",
+			"\\s+hindiMap.Add\\(\\\".*\\\"\\,\\s+",
+			"\\s+hindiMap.Add\\(\\\"\\w+\\\"\\,\\s+",
+			"hindiMap.Add\\(\\\"\\w+\\\"\\,",
+			"hindiMap.Add\\(\"\\w+\",",
+			"hindiMap.Add\\(\\\"\\w+\\\",",
+			"hindiMap.Add(",
+			"<div class=\"section\">",
+			"=\"section",
+			"section",
+			"man on"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"HindiLib",
+			"\": \"",
+			"$1",
+			"{$1},",
+			"{",
+			"readable:",
+			"\"",
+			"],",
+			"{$1},",
+			": [",
+			"$1",
+			"{\"$1\"},",
+			"readble:",
+			"[$1]",
+			"{ letter:$1, readable=$2 },",
+			"{ letter:$1, readable=$2 },\\r\\r",
+			"{ letter:$1, readable=$2 },\\r\\n",
+			"{ letter:$1, readable=$2 },\\n",
+			"{ letter:$1, readable=$2 },",
+			"$1:",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/karthick/Documents/Experiments/Hindi/app/app.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better TypeScript/TypeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Keyboard.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better TypeScript/TypeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "HindiLib.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "HindiLetter.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "HindiWord.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better TypeScript/TypeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/karthick/Documents/Experiments/Hindi/hindi.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/Users/karthick/Documents/Experiments/Hindi/BuildHindi.glue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "/Users/karthick/Documents/Experiments/Hindi/HindiGuide.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		]
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
